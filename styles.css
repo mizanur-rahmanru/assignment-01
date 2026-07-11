@@ -1,11 +1,12 @@
-/* <-- navigation bar --> */
+/* navigation bar */
 .navigation{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around
 }
 .middle-nav{
     display: flex;
+    justify-content: ;
     gap: 20px;
 }
 .common-button{
@@ -19,4 +20,22 @@
 }
 .common-button:hover{
     background-color: green;
+}
+
+/* Hero Section */
+.hero-parent{
+    text-align: center;
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+}
+.hero-parent-child-1{
+    padding: 50px;
+    color: white;
+}
+.hero-child-2{
+    padding: 20px;
 }
