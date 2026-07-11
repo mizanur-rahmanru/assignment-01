@@ -1,0 +1,22 @@
+/* <-- navigation bar --> */
+.navigation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.middle-nav{
+    display: flex;
+    gap: 20px;
+}
+.common-button{
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.common-button:hover{
+    background-color: green;
+}
