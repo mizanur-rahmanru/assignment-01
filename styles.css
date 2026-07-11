@@ -39,3 +39,46 @@
 .hero-child-2{
     padding: 20px;
 }
+
+/* Speaker Section*/
+.speaker{
+
+    max-width: auto;
+    text-align: center;
+}
+.speaker-child{
+    display: flex;
+    width:auto;
+    gap: 150px;
+    justify-content: center;
+}
+.profile-card{
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eefef5;
+}
+.profile-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-content{
+   padding: 20px;
+}
+.box-1{
+    font-size: 11px;
+    color: #5182eb;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+}
+.box-2{
+    font-size: 18px;
+    margin: 0 0 6px 0;
+}
+.box-3{
+    font-size: 14px;
+    margin0;
+}
